@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+''' module docmentation'''
 class Square:
-    pass
     """
     creates a square class object
     """
+    pass
