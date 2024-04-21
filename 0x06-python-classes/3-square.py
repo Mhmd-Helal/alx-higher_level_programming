@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''module doc'''
+
+
 class Square:
     """
     creates a square object
@@ -9,14 +12,6 @@ class Square:
         if (size < 0):
             raise ValueError("size must be >= 0")
         self.__size = size
-        """
-        initializes instance of a square
-        Args:
-            __size(int): size of square
-            __position(tuple):position
-        """
+
     def area(self):
         return (self.__size**2)
-    """
-    returns area of square based on size
-    """
