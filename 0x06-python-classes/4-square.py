@@ -1,11 +1,14 @@
 #!/usr/bin/python3
+'''module doc'''
+
+
 class Square:
     """
     creates square object
     """
 
     def __init__(self, size=0):
-        self.__size = size
+        self.size = size
     """
     initializes a square object with size
     Args:
