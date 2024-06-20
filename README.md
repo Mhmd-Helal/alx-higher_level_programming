@@ -1,1 +1,0 @@
-hello from alx-higher_level_programming
