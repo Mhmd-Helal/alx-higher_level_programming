@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const sizeSquare = process.argv[2];
+const sizeSquare = +process.argv[2];
 if (sizeSquare) {
   for (let i = 0; i < sizeSquare; i++) {
     let sympol = '';
