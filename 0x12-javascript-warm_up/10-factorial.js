@@ -1,11 +1,10 @@
 #!/usr/bin/node
 const n = +process.argv[2];
-let f = 1;
-if (n) {
-  for (let i = 1; i <= n; i++) {
-    f = f * i;
+function factorial (n) {
+  if (n) {
+    return (n * factorial(n - 1));
+  } else {
+    return (1);
   }
-  console.log(f);
-} else {
-  console.log(f);
 }
+console.log(factorial(n));
