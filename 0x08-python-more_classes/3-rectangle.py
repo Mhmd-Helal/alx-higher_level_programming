@@ -47,5 +47,5 @@ class Rectangle:
             return None
         rectangle = []
         for _ in range(self.heigt):
-            rectangle.append("#" * 2)
+            rectangle.append("#" * self.width)
         return "\n".join(rectangle)
