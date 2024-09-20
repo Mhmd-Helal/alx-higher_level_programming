@@ -46,6 +46,6 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ""
         rectangle = []
-        for _ in range(self.heigt):
+        for _ in range(self.height):
             rectangle.append("#" * self.width)
         return "\n".join(rectangle)
