@@ -1,4 +1,4 @@
-#!/usr/bin/pythom3
+#!/usr/bin/pythnm3
 """Save Object to a file"""
 import json
 
